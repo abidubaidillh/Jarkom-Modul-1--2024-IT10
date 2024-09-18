@@ -104,3 +104,40 @@ ncat 10.15.42.60 45000
 5. kita lanjutkan mencari file yang berisikan data tersebut
 ![Screenshot 2024-09-19 000400](https://github.com/user-attachments/assets/e98bcc87-77e2-4840-b115-6b59845affc5)
 ![Screenshot 2024-09-19 000342](https://github.com/user-attachments/assets/895d2a2b-25c9-4433-9e28-2d80710f9a3a)
+
+# Jarkom-Modul-1--2024-IT10
+
+## Anggota Team:
+1. Dani Wahyu Anak Ary   5027231038
+2. Abid Ubaidillah A     5027231089
+
+### Advance Sanity Check
+![image](https://github.com/user-attachments/assets/2e33681e-f43f-4d5e-8d77-ca36137d7593)
+#### Cara Pengerjaan
+- "http.request.uri contains "upload.php"".
+- "frame containts “.txt”".
+- Di Clue3.txt ada kalimat untuk membuka PPT.
+- Yang ternyata PPT tersebut mengarahkan kita pada sebuah code yang harus di decode terlebih dahulu mengguakan Decoder Base64.
+- Hasil dari decode tersebut merupakan pesan rahasia untuk kemudian dimasukkan dan Flagnya pun muncul
+
+### FTP Login
+![image](https://github.com/user-attachments/assets/46e2426d-3863-4139-bf55-17f7c3d787d9)
+#### Cara Pengerjaan
+- menggunakan filter "ftp" untuk menemukan jawabannya
+- setelah menginput username dan password, flagnya pun muncul
+
+### Illegal Breakthrough
+![image](https://github.com/user-attachments/assets/70d6a224-995c-4206-bdea-9bab63a10877)
+#### Cara Pengerjaan
+- Pada paket pertama, saya mengisi IP korban dengan IP pada Kolom Destination
+  ![image](https://github.com/user-attachments/assets/498c2491-19ae-42fa-b348-2aaa47d6dff9)
+- Kemudian saya mengeksplore paket tersebut dengan menekan "Follow TCP Stream" dan menemukan data bahwa port tersebut berada di"1917"
+  ![image](https://github.com/user-attachments/assets/ee15089c-8180-49fb-947b-dff87fbf9d24)
+- Masih pada paket yang sama saya mengisi endpoint sesuai yang tertera pada data yaitu "/ww1.php"
+  ![image](https://github.com/user-attachments/assets/78432cad-e3f8-4e03-b64a-400a09f96e21)
+- Kemudian, masih pada paket yang sama juga saya menemukan versi tools yang digunakan
+![image](https://github.com/user-attachments/assets/6a4619c7-06b6-4c5c-821e-4cb7c0608f52)
+- Terakhir, memasukkan username dan password dan kredensial di situlah flag muncul
+
+
+
