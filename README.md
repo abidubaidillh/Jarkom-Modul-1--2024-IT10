@@ -7,9 +7,6 @@
 | Dani Wahyu Anak Ary    | 5027231038 |
 | Abid Ubaidillah     | 5027231089 |
 
-## Advance Sanity Check
-![image](https://github.com/user-attachments/assets/2e33681e-f43f-4d5e-8d77-ca36137d7593)
-
 ## Corporate Breach
 1. Pertama saya mendownload file breach.pcapng.
 2. Setelah itu saya membuka file tersebut.
@@ -103,12 +100,6 @@ ncat 10.15.42.60 45000
 5. kita lanjutkan mencari file yang berisikan data tersebut
 ![Screenshot 2024-09-19 000400](https://github.com/user-attachments/assets/e98bcc87-77e2-4840-b115-6b59845affc5)
 ![Screenshot 2024-09-19 000342](https://github.com/user-attachments/assets/895d2a2b-25c9-4433-9e28-2d80710f9a3a)
-
-# Jarkom-Modul-1--2024-IT10
-
-## Anggota Team:
-1. Dani Wahyu Anak Ary   5027231038
-2. Abid Ubaidillah A     5027231089
 
 ### Advance Sanity Check
 ![image](https://github.com/user-attachments/assets/2e33681e-f43f-4d5e-8d77-ca36137d7593)
