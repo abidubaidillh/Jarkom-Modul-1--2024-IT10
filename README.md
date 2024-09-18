@@ -76,4 +76,27 @@ python jarm.py www.its.ac.id
 ```
 ![Screenshot 2024-09-19 011431](https://github.com/user-attachments/assets/5b78619e-23ed-4a51-a532-699295403499)
 
+## Gajah Terbang (Attacker Recon)
+1. Pertama saya mendownload file gajahterbang.pcapng.
+2. Setelah itu saya membuka file tersebut.
+3. Setelah membuka file tersebut, saya membuka Windows Powershell pada device saya
+![image](https://github.com/user-attachments/assets/9bd77ccc-c012-4424-a795-87b734bcb531)
+4. setelah itu saya memasukkan nc
+```bash
+ncat 10.15.42.60 62000
+```
+5. kita lanjutkan mencari file yang berisikan data tersebut
+![Screenshot 2024-09-19 002843](https://github.com/user-attachments/assets/7b331e36-d6fb-49ad-a211-218129b15bf0)
 
+## 22 Nightmare
+1. Pertama saya mendownload file oimazrim.pcapng.
+2. Setelah itu saya membuka file tersebut.
+3. Setelah membuka file tersebut, saya membuka Windows Powershell pada device saya
+![image](https://github.com/user-attachments/assets/9bd77ccc-c012-4424-a795-87b734bcb531)
+4. setelah itu saya memasukkan nc
+```bash
+ncat 10.15.42.60 45000
+```
+5. kita lanjutkan mencari file yang berisikan data tersebut
+![Screenshot 2024-09-19 000400](https://github.com/user-attachments/assets/e98bcc87-77e2-4840-b115-6b59845affc5)
+![Screenshot 2024-09-19 000342](https://github.com/user-attachments/assets/895d2a2b-25c9-4433-9e28-2d80710f9a3a)
