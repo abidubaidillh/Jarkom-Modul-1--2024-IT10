@@ -5,9 +5,10 @@
 | Nama | NRP                    |
 |---------------|---------------------------------|
 | Dani Wahyu Anak Ary    | 5027231038 |
-| Abid Ubaidillah     | 5027231089 |
+| Abid Ubaidillah A      | 5027231089 |
 
-## Corporate Breach
+### Corporate Breach
+#### Cara Pengerjaan
 1. Pertama saya mendownload file breach.pcapng.
 2. Setelah itu saya membuka file tersebut.
 ![image](https://github.com/user-attachments/assets/d456d069-d72d-4f6b-8810-49af03291b86)
@@ -30,7 +31,8 @@ ncat 10.15.42.60 51000
 10. step terakhir kita masukkan flagnya
 ![image](https://github.com/user-attachments/assets/17cb1491-ca7b-4b61-b481-c07e32e5a28f)
 
-## Pegawai Negeri Sebelah
+### Pegawai Negeri Sebelah
+#### Cara Pengerjaan
 1. Pertama saya mendownload file rahasia.pcapng.
 2. Setelah itu saya membuka file tersebut.
 ![image](https://github.com/user-attachments/assets/daf384c4-bc13-4cb6-81bf-b74a7082d217)
@@ -45,7 +47,8 @@ ncat 10.15.42.60 48500
 6. kita lanjutkan mencari file yang berisikan data tersebut
 ![Screenshot 2024-09-19 010538](https://github.com/user-attachments/assets/9cf3adfc-32c7-41b3-8bde-0aba4216aa14)
 
-## EZ
+### EZ
+#### Cara Pengerjaan
 1. Pertama saya mendownload file ez.pcapng.
 2. Setelah itu saya membuka file tersebut.
 3. Setelah membuka file tersebut, saya membuka Windows Powershell pada device saya
@@ -57,7 +60,8 @@ ncat 10.15.42.60 54000
 5. kita lanjutkan mencari file yang berisikan data tersebut
 ![Screenshot 2024-09-19 010859](https://github.com/user-attachments/assets/d1669173-ec32-400c-b278-a7eab9a6ba10)
 
-## Rizzset
+### Rizzset
+#### Cara Pengerjaan
 1. Pertama saya mendownload file riset.pcapng.
 2. Setelah itu saya membuka file tersebut.
 3. Setelah membuka file tersebut, saya membuka Windows Powershell pada device saya
@@ -76,7 +80,8 @@ python jarm.py www.its.ac.id
 ```
 ![Screenshot 2024-09-19 011431](https://github.com/user-attachments/assets/5b78619e-23ed-4a51-a532-699295403499)
 
-## Gajah Terbang (Attacker Recon)
+### Gajah Terbang (Attacker Recon)
+#### Cara Pengerjaan
 1. Pertama saya mendownload file gajahterbang.pcapng.
 2. Setelah itu saya membuka file tersebut.
 3. Setelah membuka file tersebut, saya membuka Windows Powershell pada device saya
@@ -88,7 +93,28 @@ ncat 10.15.42.60 62000
 5. kita lanjutkan mencari file yang berisikan data tersebut
 ![Screenshot 2024-09-19 002843](https://github.com/user-attachments/assets/7b331e36-d6fb-49ad-a211-218129b15bf0)
 
-## 22 Nightmare
+### Gajah Terbang (Server Recon)
+![Screenshot 2024-09-19 152320](https://github.com/user-attachments/assets/0b899bc6-f446-4f58-a6bd-99fc5bb4d204)
+#### Cara Pengerjaan
+- Menggunakan filter tcp saya memfollow pada salah satu pake yang berwana hitam dan dari situ saya menemukan jawaban dari pertanyaan DBSM apa yang digunakan
+![image](https://github.com/user-attachments/assets/f499befb-0d34-4de4-abc0-fd1b1c07ef6f)
+- Kemudian memasukkan port yang sudah jelas tertera
+![image](https://github.com/user-attachments/assets/e57931b8-9406-4c5c-bde9-53797c0d7cc8)
+- Masih pada paket yang sama saya menemukan OS apa yang digunakan
+![image](https://github.com/user-attachments/assets/9d91cbec-bad3-40dd-b317-629a7159994d)
+- Kemudian, menemukan username credential yang tertera
+![image](https://github.com/user-attachments/assets/bd9b0ab2-13ad-4118-9532-a82d537158ed)
+- Terus, menemukan nama database setelah nama user
+![image](https://github.com/user-attachments/assets/c248184a-d0f8-4fc1-b3a1-959e88e6a22f)
+- Menghitung jumlah user pada databse tersebut
+- Menemukan email yang digunakan oleh admin
+![image](https://github.com/user-attachments/assets/da43de5a-4503-4fc7-83f3-5b3711584d09)
+- Menemukan password yang digunakan oleh admin yang mana harus di Decrypter terlebih dahulu kemudian flagnya muncul
+![image](https://github.com/user-attachments/assets/e4ab5734-f88d-4cd0-a8ff-6f4125556756)
+
+
+### 22 Nightmare
+#### Cara Pengerjaan
 1. Pertama saya mendownload file oimazrim.pcapng.
 2. Setelah itu saya membuka file tersebut.
 3. Setelah membuka file tersebut, saya membuka Windows Powershell pada device saya
@@ -128,6 +154,3 @@ ncat 10.15.42.60 45000
 - Kemudian, masih pada paket yang sama juga saya menemukan versi tools yang digunakan
 ![image](https://github.com/user-attachments/assets/6a4619c7-06b6-4c5c-821e-4cb7c0608f52)
 - Terakhir, memasukkan username dan password dan kredensial di situlah flag muncul
-
-
-
