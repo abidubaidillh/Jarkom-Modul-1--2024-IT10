@@ -1,4 +1,4 @@
-# Jarkom-Modul-1--2024-IT10
+# Jarkom-Modul-1-2024-IT10
 
 ## Anggota Team:
 
