@@ -154,3 +154,19 @@ ncat 10.15.42.60 45000
 - Kemudian, masih pada paket yang sama juga saya menemukan versi tools yang digunakan
 ![image](https://github.com/user-attachments/assets/6a4619c7-06b6-4c5c-821e-4cb7c0608f52)
 - Terakhir, memasukkan username dan password dan kredensial di situlah flag muncul
+
+### Corporate Breach
+![Screenshot 2024-09-20 205020](https://github.com/user-attachments/assets/1abb6831-f10e-45c4-8aa3-95127623a197)
+#### Cara Pengerjaan
+- Masih pada file yang sama dengan soal sebelumnya yaitu Illegal Breakthrough, untuk mendapatkan IP Address dari attacker saya mencoba memasukkan IP Source pada paket pertama saya file dibuka
+
+![Screenshot 2024-09-20 204306](https://github.com/user-attachments/assets/7c6677f2-95c7-43fd-9982-c94579c960b4)
+- Menggunakan filter "http && ip.src eq 172.21.88.207" saya menemukan berapa total attempt dari bruteforce attacker.
+
+![Screenshot 2024-09-20 204451](https://github.com/user-attachments/assets/32d9ed3b-d03b-4c32-a5e2-cf3bea6b5cec)
+- Kemudian untuk mendapatkan apa nama file yang didownload oleh attacker setelah berhasil login yaitu saya memfollow paket terakhir, dan terlihat nama file beserta si dari file tersebut. setelah dimasukkan flagnya muncul
+
+a. ![Screenshot 2024-09-20 204841](https://github.com/user-attachments/assets/9ebed44b-b85b-484a-9b35-2f99abb73930)
+
+b. ![Screenshot 2024-09-20 204933](https://github.com/user-attachments/assets/d871844d-90f5-490c-8131-2358ef47e9fe)
+
