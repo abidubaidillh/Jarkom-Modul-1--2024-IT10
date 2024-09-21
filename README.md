@@ -177,3 +177,14 @@ b. ![Screenshot 2024-09-20 204933](https://github.com/user-attachments/assets/d8
 - Apa endpoint yang berhasil attacker dapatkan untuk login page? </br> /index.php
 - Pada attempt ke berapa attacker menemukan email dan password yang benar? </br> 153
 - Apa jawaban dari pertanyaan sang attacker? </br> merah
+
+### Malicious Code
+![image](https://github.com/user-attachments/assets/9e2a4374-59db-4fe9-8618-d3055105420b)
+#### Cara Pengerjaan
+- Ada berapa banyak gambar yang dikirim? </br>
+Saya menghitung berapa file berupa .png yang dikirim ternyata ada 13
+![Screenshot 2024-09-22 012815](https://github.com/user-attachments/assets/b71213c6-5d69-4437-964a-136178a855d4)
+- Nama-nama file yang memiliki pesan? (Berurut abjad) </br>
+ATP, EH, KJK
+- Apa pesannya jika digabung? </br>
+pahlawan keamanan siber
