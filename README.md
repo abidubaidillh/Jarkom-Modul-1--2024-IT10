@@ -170,3 +170,10 @@ a. ![Screenshot 2024-09-20 204841](https://github.com/user-attachments/assets/9e
 
 b. ![Screenshot 2024-09-20 204933](https://github.com/user-attachments/assets/d871844d-90f5-490c-8131-2358ef47e9fe)
 
+### Malicious Code
+![Screenshot 2024-09-22 010505](https://github.com/user-attachments/assets/d2523bab-7a10-487b-b43a-4e7ee15359c7)
+#### Cara Pengerjaan
+- Berapa total attempt attacker melakukan dir listing? </br> 54 - 2 = 52
+- Apa endpoint yang berhasil attacker dapatkan untuk login page? </br> /index.php
+- Pada attempt ke berapa attacker menemukan email dan password yang benar? </br> 153
+- Apa jawaban dari pertanyaan sang attacker? </br> merah
